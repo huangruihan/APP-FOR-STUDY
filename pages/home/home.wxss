@@ -1,0 +1,41 @@
+/* pages/home/home.wxss */
+@import "/templates/tips1.wxss";
+@import "/templates/tips2.wxss";
+@import "/templates/classes-template.wxss";
+@import "/templates/video-template.wxss";
+
+.slide{
+  /* background-color: black; */
+  width:750rpx;
+  height:400rpx;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.hot-course{
+  padding: 10rpx;
+}
+
+.tips{
+  display: flex;
+  justify-content: space-between;
+}
+
+.classes-scroll{
+  /* background-color: black; */
+  height: 180rpx;
+  padding-left: 10rpx;
+  /* padding-top: 10rpx; */
+  white-space: nowrap;
+  margin-top: 20rpx;
+}
+.recommend-video{
+  padding: 10rpx;
+}
+
+.videos{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+}
